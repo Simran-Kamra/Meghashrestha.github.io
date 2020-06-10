@@ -1,0 +1,18 @@
+.main {
+    text-align: center;
+    margin-top: auto;
+    padding: 20px;
+    
+  }
+  .twitter {
+      align-content: center;
+      text-align: center;
+  }
+  #loading {
+      align-content: center;
+  }
+ 
+  body {
+      background-image: url(/img/12.jpg);
+  }
+  
