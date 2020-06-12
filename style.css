@@ -1,8 +1,11 @@
 .main {
-    text-align: center;
-    margin-top: auto;
-    padding: 20px;
-    
+  text-align: center;
+  margin-top: none;
+  padding: 0px;
+  
+}
+  img {
+    border-radius: 50%;
   }
   .twitter {
       align-content: center;
@@ -12,7 +15,65 @@
       align-content: center;
   }
  
-  body {
-      background-image: url(/img/12.jpg);
-  }
+  .container , .repository{
+    background: linear-gradient(-45deg, #d9e758, #cc7697, #9adbf3, #23d5ab);
+    position: relative;
+    max-width: 100%;
+    background-size: 800% 800%;
+    
+    animation: gradient 5s ease infinite;
+    }
+    @keyframes gradient {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+    
+
+
+
   
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .repository{
+    text-align: center;
+     overflow: auto;
+    position: relative;
+
+}
+
+
+
+#load{
+        background-size: cover;
+}
+
+#repo-list {
+    width:30%;
+    margin:0 auto;
+}
+#repo-list > a  {
+    display: block;
+    text-decoration: none;
+    font-size: 22px;
+    
+}
+
+.repo-card {
+    background-color: rgb(255, 255, 255);
+    padding:15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+  
+
+
+
